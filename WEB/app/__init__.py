@@ -11,7 +11,7 @@ def create_app():
         template_folder='templates'
     )
     app.config.from_object(Config)
-    app.secret_key = 'supersecretkey'  # Cambia esto por una clave secreta segura
+    app.secret_key = 'adasjñájsdasoiw3498u598uswefdr*'  # Cambia esto por una clave secreta segura
 
     @app.route('/')
     def index():
